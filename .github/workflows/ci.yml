@@ -4,7 +4,7 @@ jobs:
   test-workflow:
     runs-on: ubuntu-latest
     steps:
-      - uses: twincities-os/github-actions-examples@main
+      - uses: twincities-os/github-actions-examples@msoule-swc-parser
         with: 
           MODEL_VERSION: "v1.0"
       - uses: actions/checkout@v4
