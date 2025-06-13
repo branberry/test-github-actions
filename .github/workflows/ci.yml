@@ -2,7 +2,7 @@ name: Test Workflow
 on: [push]
 jobs:
   test-workflow:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: twincities-os/github-actions-examples@msoule-swc-parser
         with: 
